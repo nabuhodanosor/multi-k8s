@@ -1,3 +1,5 @@
+# just some comment right here
+
 docker build -t ygrinman/multi-client:latest -t ygrinman/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t ygrinman/multi-server:latest -t ygrinman/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t ygrinman/multi-worker:latest -t ygrinman/multi-worker:$SHA -f ./worker/Dockerfile ./worker
